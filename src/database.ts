@@ -9,7 +9,12 @@ export default class Database {
     private users: IUser[];
 
   constructor() {
-    this.users = [];
+    this.users = [{
+      id: '111',
+      username: 'Hder',
+      age: 22,
+      hobbies: [],
+    }];
   }
 
   getAllUsers() {
